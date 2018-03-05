@@ -1,0 +1,38 @@
+{
+  "name": "reactnativethehardway",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.52.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "This is a simple starter kit to init with React Native following the [React Native](http://facebook.github.io/react-native/docs/getting-started.html) documentation.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanoelLopes/react-native-the-hard-way.git"
+  },
+  "keywords": [
+    "react-native",
+    "react"
+  ],
+  "author": "Emanoel Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmanoelLopes/react-native-the-hard-way/issues"
+  },
+  "homepage": "https://github.com/EmanoelLopes/react-native-the-hard-way#readme"
+}
